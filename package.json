@@ -1,0 +1,21 @@
+{
+  "name": "trabalho",
+  "version": "1.0.0",
+  "description": "Trabalho",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon server.js ."
+  },
+  "keywords": [
+    "trabalho"
+  ],
+  "author": "Marcio Pereira Cornelio",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "nodemon": "^2.0.4"
+  }
+}
