@@ -14,7 +14,7 @@ class OperatorsDB extends Connection {
         } catch (error) {
             console.log('Operators.save', error)
         }
-    }
+    } 
 
     async find(collection, query) {
         try {
